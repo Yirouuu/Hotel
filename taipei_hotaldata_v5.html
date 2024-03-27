@@ -49,12 +49,12 @@
         $(function () {
             $.ajax({
                 type: "GET",
-                url: "https://webdemorichie.000webhostapp.com/web202403/20240305-taipei_hotaldata-api.php",
+                url: "https://romish-credits.000webhostapp.com/20240305-taipei_hotaldata-api.php",
                 dataType: "json",
                 async: false,
                 success: showdata,
                 error: function () {
-                    alert("error-https://webdemorichie.000webhostapp.com/web202403/20240305-taipei_hotaldata-api.php");
+                    alert("error-https://romish-credits.000webhostapp.com/20240305-taipei_hotaldata-api.php");
                 }
             });
 
@@ -102,7 +102,7 @@
 
         function drawView(page) {
             $("#hotel_list").empty();
-            regionData[page].forEach(function (item, key) {
+           regionData[page].forEach(function (item, key) {
                 // var strHTML = '<li class="list-group-item border border-4  border-danger shadow shadow-lg mt-3"><div class="h3">' + item.name + '</div><h5>住址: ' + item.display_addr + '</h5><h5>電話: ' + item.tel + '</h5><button class="btn btn-success w-100">MAp</button></li>';
                 // var strHTML = '<div class="col-md-4 col-lg-3 mt-4"><div class="card h-100"><div class="card-body shadow shadow-lg d-flex flex-column"><div class="h2 text-bg-success text-center fw-bolder py-2 rounded rounded-3">' + item.name + '</div><div class="h4">地址: ' + item.display_addr + '</div><div class="h4">電話: ' + item.tel + '</div><button class="btn btn-outline-danger w-100 mt-auto">導航</button></div></div></div>';
 

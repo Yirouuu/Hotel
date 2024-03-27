@@ -1,9 +1,9 @@
 <?php
-    header("Access-Control-Allow-Origin: *");
-    $servername = "localhost";
-    $username = "id21990604_owner";
-    $password = "Onefloor0903-";
-    $dbname = "id21990604_yirou";
+      header("Access-Control-Allow-Origin: *");
+      $servername = "localhost";
+      $username = "id21990604_yirou";
+      $password = "Onefloor0903-";
+      $dbname = "id21990604_yirou";
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);
     if(!$conn){
